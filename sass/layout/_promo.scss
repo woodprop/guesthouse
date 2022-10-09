@@ -1,0 +1,39 @@
+.promo {
+  padding-top: 178px;
+  padding-bottom: 90px;
+  background: url("images/promo-bg.jpg") no-repeat center center/cover;
+
+  color: #fff;
+
+  &__logo {
+    margin: 0 auto 37px;
+    width: 256px;
+    height: 90px;
+  }
+
+  &__title {
+    margin-bottom: 33px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  &__icon {
+    display: block;
+    margin: 113px auto 0;
+    width: 60px;
+    height: 65px;
+    background: url("images/promo-icon.svg") no-repeat center center/cover;
+  }
+
+}

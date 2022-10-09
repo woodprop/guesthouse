@@ -1,0 +1,11 @@
+.teaser {
+  padding-top: 100px;
+  padding-bottom: 140px;
+  &__text {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    text-align: center;
+    color: $color-main;
+  }
+}

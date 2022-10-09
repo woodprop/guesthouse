@@ -1,0 +1,32 @@
+.description {
+  padding-top: 100px;
+  padding-bottom: 90px;
+  background: $color-bg;
+
+  &__container {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 32px;
+    column-gap: 40px;
+    width: 745px;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    &:last-child {
+      font-size: 13px;
+    }
+  }
+
+  &__text {
+    color: $color-text-dark;
+  }
+}
