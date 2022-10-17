@@ -1,0 +1,31 @@
+.specs {
+  padding: 100px 0;
+  color: $color-main;
+}
+
+.specs__title {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.specs__subtitle {
+  margin-top: 12px;
+  max-width: 600px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.specs__table {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 32px;
+}
+
+.specs__item {
+  flex-basis: 45%;
+}

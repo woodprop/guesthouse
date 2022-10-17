@@ -5,21 +5,26 @@
 @import 'abstract/variables';
 
 @import 'base/fonts';
-
-@import 'components/logo';
-@import 'components/menu';
-@import 'components/button';
-@import 'components/accent-bar';
-@import 'components/slider';
+@import 'base/button';
 
 
 @import 'layout/common';
 @import 'layout/header';
 @import 'layout/wrapper';
-@import 'layout/promo';
-@import 'layout/description';
-@import 'layout/teaser';
-@import 'layout/arragements';
+
+
+@import 'components/logo';
+@import 'components/menu';
+@import 'components/accent-bar';
+@import 'components/slider';
+@import 'components/promo';
+@import 'components/description';
+@import 'components/teaser';
+@import 'components/arragements';
+@import 'components/specs';
+
+
+
 
 
 
